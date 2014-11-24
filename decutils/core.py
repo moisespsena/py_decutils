@@ -6,11 +6,9 @@ Created on Feb 15, 2013
 @author: Moises P Sena
 '''
 __author__ = 'Moises P Sena <moisespsena@gmail.com>'
-import copy
 from inspect import isclass
-import types
+
 from ordereddict import OrderedDict
-from collects.dicts import ImmutableDict
 
 
 class decorator(object):
