@@ -48,7 +48,7 @@ class CleanCommand(Command):
 #print('tests.' + pkg_by_version("p") + ".test_all")
 setup(
     name="decutils",
-    version="1.1",
+    version="1.2",
     author="Moises P. Sena",
     author_email="moisespsena@gmail.com",
     description=("Python Decorator Utilities."),
@@ -57,7 +57,7 @@ setup(
     url="https://github.com/moisespsena/py_decutils",
     packages=find_packages(),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Topic :: Utilities",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",

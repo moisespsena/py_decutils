@@ -8,7 +8,10 @@ Created on Feb 15, 2013
 __author__ = 'Moises P Sena <moisespsena@gmail.com>'
 from inspect import isclass
 
-from ordereddict import OrderedDict
+try:
+    from ordereddict import OrderedDict
+except ImportError:
+    from collections import OrderedDict 
 
 
 class decorator(object):
